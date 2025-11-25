@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "JARVIS AI",
+    "slug": "jarvis-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://i.imgur.com/ptdb8kP.gif", 
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "https://i.imgur.com/ptdb8kP.gif",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "https://i.imgur.com/ptdb8kP.gif",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.arpitsharma.jarvis"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
